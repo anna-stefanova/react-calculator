@@ -1,0 +1,41 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+
+.calculator-grid button {
+  border-radius: 8px;
+  border: 1px solid #00AAFF;
+  padding: 0.6em 1.2em;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  transition: background-color 0.25s;
+  outline: none;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, .9);
+
+}
+button:focus,
+button:focus-visible {
+  background-color: rgba(255, 255, 255, .9);
+}
+
